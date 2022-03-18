@@ -8,18 +8,6 @@
     <link rel="stylesheet" href="TemplateData/style.css">
     <script src="TemplateData/UnityProgress.js"></script>
     <script src="UnityLoader.js"></script>
-    <script>
-      var gameInstance = UnityLoader.instantiate("gameContainer", "Build.json", {onProgress: UnityProgress});
-            window.onload = function() { setInterval( timeNow, 100); }
-
-            function timeNow() {
-
-              var time = new Date();
-              const options = { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' };
-              document.getElementById("time").innerHTML = "Game Time: " + time.toLocaleDateString('PST') + " " + time.toLocaleTimeString('PST');
-
-            }
-    </script>
   </head>
   <body>
     <div class="webgl-content">
