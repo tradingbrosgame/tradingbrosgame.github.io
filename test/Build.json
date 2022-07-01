@@ -1,7 +1,7 @@
 {
 "companyName": "DanGames",
-"productName": "Trading Bros",
-"productVersion": "1.2.5-1b",
+"productName": "TradingBros",
+"productVersion": "1.2.6-1b",
 "dataUrl": "Build.data.unityweb",
 "wasmCodeUrl": "Build.wasm.code.unityweb",
 "wasmFrameworkUrl": "Build.wasm.framework.unityweb",
